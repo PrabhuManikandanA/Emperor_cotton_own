@@ -1,0 +1,944 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700&display=swap');
+
+footer {
+    padding-top: 30px;
+    background:  #fff;
+    position: relative;
+    z-index: 1;
+}
+ footer h5{
+	 font-family: 'Raleway', ;
+ }
+ footer a, footer p, .copyright p{
+	 font-family: 'Roboto';
+ }
+ footer ul{
+	 padding: 0;
+	 list-style: none;
+	 line-height: 16px;
+ }
+
+  footer ul li a{
+	  font-size: 11px;
+	  font-weight: 600;
+	  color: #333;
+  }
+  footer ul li a:hover{
+	  color: #000000;
+	  text-decoration: none;
+  }
+  .btn-exlpnw.drk:hover{
+    background:#fff;
+    color:#000;
+    border: 1px solid #000;
+}.home-category .btn-exlpnw.drk:hover{    background:#000000;    color:#ffffff;    border: 1px solid #000;}
+.btn-exlpnw:hover{
+    background:#b7b7b7;
+}
+ .ftrlinks .col{
+	 padding-left: 5px;
+	 padding-right: 5px;
+	 text-transform: uppercase;
+ }
+ .ftrlinks .col h5{
+	 font-size: 13px;
+	 font-weight: 700;
+	 color: #000000;
+ }
+ .ftrlogo{
+	 margin-bottom: 25px;
+	 margin-right: 68%;
+ }
+ .copyright{
+	  background: #000;
+	  margin-top:30px;
+ }
+ .copyright p{
+	 margin: 0;
+	 padding: 6px;
+	 font-size: 12px;
+	 text-align: center;
+	 color: #ffffff;
+ }
+ .home-our-presence {
+	 background-image: url('/images/our-presence.jpg');
+	 padding: 70px 0;
+	 background-attachment: fixed;
+	 
+ }
+ .OurPresenceInfo , .managementeaminfo{
+	 text-align: center;
+	 max-width: 500px;
+	 margin-left: auto;
+	 margin-right: auto;
+	 color: #ffffff;
+ }
+ .OurPresenceInfo h3, .managementeaminfo h3{
+	 text-transform: uppercase;
+	 font-weight: 700;
+	 margin-bottom: 20px;
+ }
+ .OurPresenceInfo p, .managementeaminfo p{
+	 font-family: 'Roboto';
+	 font-size: 15px;
+ }
+ .managementeaminfo p{
+	 text-align: left;
+ }
+ 
+ .btn-exlpnw{
+	 background:#ffffff;
+	 color:#000000;
+	 border: none;
+	 border-radius: 0;
+	 padding: 4px 20px;
+	 font-family: 'Raleway';
+	 text-transform: uppercase;
+	 font-size: 13px;
+	 font-weight: 600;
+ }
+  .btn-exlpnw.drk{
+	 background:#000000;
+	 color:#ffffff;
+	 border:1px #000 solid;
+  }  .home-category .btn-exlpnw.drk{	 background:#ffffff;	 color:#000000;	 border:1px #ffffff solid;  }
+ .home-management-team {
+	 background-repeat: no-repeat;
+	 padding: 35px 0;
+	 position:relative;
+	 background-position: center center;
+	 margin-bottom:10px;
+ }
+ .home-management-team::after{
+	 background:#000;
+	 position:absolute;
+	 content:'';
+	 min-height:260px;
+	 width:100%;
+	 top:100px;
+	 z-index:0;
+ }
+ .mngmentminfobox {
+	 display: flex;
+	 position:relative;
+	 z-index:1;
+ }
+ .home-management-team img{
+	 border: 8px solid #ffffff;
+	 box-shadow: -4px 4px 7px 0px rgba(0,0,0,0.4);
+	 position:relative;
+	 z-index:1;
+ }
+ .managementeaminfo{
+	align-content: center;
+	display: flex;
+	flex-wrap: wrap;
+ }
+ hr{
+	 border-top: 2px solid #000;
+	margin-top: 20px;
+	margin-bottom: 0;
+	padding: 8px 0;
+ }
+ .cateBox{
+	 
+	/*background: #f0f0f0;*/
+	 padding: 25px 0 0;
+	 font-family: 'Raleway', ;
+	 font-size: 15px;
+	 font-weight: 400;
+	 
+ }
+  .cateBox.rev{
+	  /*background: #ffffff;*/
+  }
+  .cateBox .eachCatInfo h4{
+	  text-transform: uppercase;
+	  font-family: 'Raleway';
+	  font-size: 18px;
+	  font-weight: 600;
+  }.home-category .cateBox .eachCatInfo h4{	color: #ffffff;}
+    .cateBox .eachCatInfo p, .headingText p{
+		font-family: 'Roboto';
+	}.home-category .cateBox .eachCatInfo p{		color: #ffffff;	}
+ .eachCatInfoBox{
+	 display: flex;
+ }
+ .eachCatInfo {
+	 display: flex;
+	 flex-wrap: wrap;
+	 align-content: center;
+	 align-self:center;
+ }
+ .headingText{
+	 text-align: center;
+	 padding: 10px 25px 0;
+ }
+ .headingText h2{
+	 text-transform: uppercase;
+	  font-family: 'Raleway';
+	  font-size: 24px;
+	  font-weight: bold;
+	  margin-bottom: 25px;
+ }
+ .headingText01{
+	 text-align: center;
+	 padding: 38px 0 10px;
+ }
+ .headingText01 h2{
+	 text-transform: uppercase;
+	  font-family: 'Raleway';
+	  font-size: 24px;
+	  font-weight: bold;
+	  margin-bottom: 10px;
+ }
+ .headingText01 p{
+     font-family: 'Jost', sans-serif;
+     font-size: 17px;
+ }
+ 
+ /*---measurement page---*/
+  .catk1{
+	 background-image: url('/images/catk1.jpg');
+	 background-repeat: no-repeat;
+	background-size:contain;
+	 
+ }
+  .catk2{
+	 background-image: url('/images/catk2.jpg');
+	 background-repeat: no-repeat;
+	background-size:contain;
+	 
+ }
+ .catk3{
+	 background-image: url('/images/catk3.jpg');
+	 background-repeat: no-repeat;
+	background-size:contain;
+	 
+ }
+ .catk5{
+	 background-image: url('/images/catk5.jpg');
+	 background-repeat: no-repeat;
+	background-size:contain;
+	 
+ }
+ 
+ 
+ /*----end----*/
+  .cat1{
+	 background-image: url('/images/cat1.jpg');
+	 background-repeat: no-repeat;
+	 background-attachment: fixed;
+	 background-size:cover;
+	 
+ }
+  .cat2{
+	 background-image: url('/images/cat2.jpg');
+	 background-repeat: no-repeat;
+	 background-attachment: fixed;
+	 background-size:cover;
+	 
+ }
+  .cat3{
+	 background-image: url('/images/cat3.jpg');
+	 background-repeat: no-repeat;
+	 background-attachment: fixed;
+	 background-size:cover;
+	 
+ }
+  .cat4{
+	 background-image: url('/images/cat4.jpg');
+	 background-repeat: no-repeat;
+	 background-attachment: fixed;
+	 background-size:cover;
+	 
+ }
+  .cat5{
+	 background-image: url('/images/cat5.jpg');
+	 background-repeat: no-repeat;
+	 background-attachment: fixed;
+	 background-size:cover;
+	 
+ }
+
+  .cat6{
+     background-image: url('/images/cat1.jpg');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size:cover;
+     
+    }
+  .cat7{
+       background-image:url('/images/cat2.jpg');
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size:cover;
+       
+     }
+   .cat8{
+        background-image: url('/images/cat3.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:cover;
+        
+       }
+       
+       
+  .catImgBox{
+	 min-height: 660px;
+ }
+ .flex-column-reverse {
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+	}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+	.flex-column-reverse {
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+	}
+	.cateBox.rev {
+		background-position: right;
+	}	
+}
+@media (max-width: 767px) { 
+	.home-management-team::after {
+		top:22px;
+		min-height:240px;
+		margin-bottom: 34px;
+	}
+}
+@media screen and (max-width: 991px) and (min-width: 767px) {
+	.home-management-team::after {
+		top:50px;
+		min-height:240px;
+	}
+	.managementeaminfo h3 {
+		text-align: left;
+		font-size: 21px;
+	}
+	.cat1{
+		/*background-image: url('/images/cat1-576-766.jpg');*/
+		background-image: url('/images/cat1-766.jpg');
+		background-size: contain;
+		background-position: center bottom;
+	}
+	.cat2{
+	 /*background-image: url('/images/cat2-576-766.jpg');*/
+	 background-image: url('/images/cat2-766.jpg');
+	 background-size: contain;
+	 background-position: center bottom;
+	}
+	.cat3{
+	 /*background-image: url('/images/cat3-576-766.jpg');*/
+	 background-image: url('/images/cat3-766.jpg');
+	 background-size: contain;
+	 background-position: center bottom;
+	}
+	.cat4{
+	 /*background-image: url('/images/cat4-576-766.jpg');*/
+	 background-image: url('/images/cat4-766.jpg');
+	 background-size: contain;
+	 background-position: center bottom;
+	}
+	.cat5{
+	 /*background-image: url('/images/cat5-576-766.jpg');*/
+	 background-image: url('/images/cat5-766.jpg');
+	 background-size: contain;
+	 background-position: center bottom;
+	}
+	.cat6{
+		/*background-image: url('/images/cat1-576-766.jpg');*/
+		background-image: url('/images/cat1-766.jpg');
+		background-size: contain;
+		background-position: center bottom;
+	}
+	.cat7{
+	 /*background-image: url('/images/cat2-576-766.jpg');*/
+	 background-image: url('/images/cat2-766.jpg');
+	 background-size: contain;
+	 background-position: center bottom;
+	}
+	.cat8{
+	 /*background-image: url('/images/cat3-576-766.jpg');*/
+	 background-image: url('/images/cat3-766.jpg');
+	 background-size: contain;
+	 background-position: center bottom;
+	}
+	.catImgBox {
+		min-height: 520px;
+	}
+	.flex-column-reverse {
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+	}
+	.ftrlogo {
+    margin-bottom: 12px;
+    margin-right: 40%;
+	width: 160px;
+	}
+	.cateBox .eachCatInfo h4{
+		font-size: 16px;
+	}
+	.cateBox .eachCatInfo p {
+		font-size: 13px;
+	}
+}
+@media screen and (max-width: 766px) and (min-width: 576px) {
+	footer ul {
+		margin-right: 33px;
+	}
+	.managementeaminfo h3 {
+		text-align: left;
+		font-size: 18px;
+		margin-bottom: 10px;		
+	}
+	.managementeaminfo p {
+		line-height: 15px;
+	}
+	.cat1{
+		/*background-image: url('/images/cat1-766.jpg');*/
+		background-image: url('/images/cat1-576-766.jpg');
+		background-size: cover;
+		background-position: center center;
+	}
+	.cat2{
+	 /*background-image: url('/images/cat2-766.jpg');*/
+	 background-image: url('/images/cat2-576-766.jpg');
+	 background-size: cover;
+	 background-position: center center;
+	}
+	.cat3{
+	 /*background-image: url('/images/cat3-766.jpg');*/
+	 background-image: url('/images/cat3-576-766.jpg');
+	 background-size: cover;
+	 background-position: center center;
+	}
+	.cat4{
+	 /*background-image: url('/images/cat4-766.jpg');*/
+	 background-image: url('/images/cat4-576-766.jpg');
+	 background-size: cover;
+	 background-position: center center;
+	}
+	.cat5{
+	 /*background-image: url('/images/cat5-766.jpg');*/
+	 background-image: url('/images/cat5-576-766.jpg');
+	 background-size: cover;
+	 background-position: center center;
+	}
+	.cat6{
+		/*background-image: url('/images/cat1-766.jpg');*/
+		background-image: url('/images/cat1-576-766.jpg');
+		background-size: cover;
+		background-position: center center;
+	}
+	.cat7{
+	 /*background-image: url('/images/cat2-766.jpg');*/
+	 background-image: url('/images/cat2-576-766.jpg');
+	 background-size: cover;
+	 background-position: center center;
+	}
+	.cat8{
+	 /*background-image: url('/images/cat3-766.jpg');*/
+	 background-image: url('/images/cat3-576-766.jpg');
+	 background-size: cover;
+	 background-position: center center;
+	}
+	.catImgBox {
+		min-height: 410px;
+	}
+	/*.flex-column-reverse {
+		-ms-flex-direction: row !important;
+		flex-direction: row !important;
+	}*/
+	.flex-column-reverse {
+		-ms-flex-direction: column-reverse !important;
+		flex-direction: column-reverse !important;
+	}
+	.ftrlogo {
+    margin-bottom: 12px;
+    margin-right: 20%;
+    margin-left: 20%;
+	/*width: 160px;*/
+	}
+	.cateBox .eachCatInfo h4{
+		font-size: 16px;
+	}
+	.cateBox .eachCatInfo p {
+		font-size: 13px;
+	}
+	.eachCatInfo {
+		background: rgba(0,0,0,0.4);
+		padding: 10px;
+		justify-content: center;
+	}
+	.eachCatInfo p{
+		text-align:center;
+	}
+}
+@media screen and (max-width: 575px) and (min-width: 481px) {
+    @supports (-webkit-touch-callout: none) {
+        .cat1{
+    	 background-image: url('/images/cat1-mob-v2.jpg')!important;
+    	 background-repeat: no-repeat!important;
+    	 background-attachment: scroll!important;
+    	 background-size:cover!important;
+    	 background-position:center center!important;
+    	 -webkit-background-image: url('/images/cat1-mob-v2.jpg')!important;
+    	  -webkit-background-size:cover!important;
+    	   -webkit-background-position:center center!important;
+    	    -webkit-background-attachment:scroll!important;
+        }
+        .cat2{
+            background-image: url('/images/cat2-mob-v2.jpg')!important;
+    	  -webkit-background-image: url('/images/cat2-mob-v2.jpg')!important;
+    	 background-repeat: no-repeat!important;
+    	 background-attachment: scroll!important;
+    	 background-size:cover!important;
+    	 background-position:center center!important;
+    	 -webkit-background-size:cover!important;
+    	   -webkit-background-position:center center!important;
+    	    -webkit-background-attachment:scroll!important;
+        }
+        .cat3{
+        background-image: url('/images/cat3-mob-v2.jpg')!important;
+    	  -webkit-background-image: url('/images/cat3-mob-v2.jpg')!important;
+    	 background-repeat: no-repeat!important;
+    	 background-attachment: scroll!important;
+    	 background-size:cover!important;
+    	 background-position:center center!important;
+    	 -webkit-background-size:cover!important;
+    	   -webkit-background-position:center center!important;
+    	    -webkit-background-attachment:scroll!important;
+        }
+        .cat4{
+    	 background-image: url('/images/cat4-mob-v2.jpg')!important;
+    	  -webkit-background-image: url('/images/cat4-mob-v2.jpg')!important;
+    	 background-repeat: no-repeat!important;
+    	 background-attachment: scroll!important;
+    	 background-size:cover!important;
+    	 background-position:center center!important;
+    	 -webkit-background-size:cover!important;
+    	   -webkit-background-position:center center!important;
+    	    -webkit-background-attachment:scroll!important;
+        }
+        .cat5{
+    	 background-image: url('/images/cat5-mob-v2.jpg')!important;
+    	  -webkit-background-image: url('/images/cat5-mob-v2.jpg')!important;
+    	 background-repeat: no-repeat!important;
+    	 background-attachment: scroll!important;
+    	 background-size:cover!important;
+    	 background-position:center center!important;
+    	 -webkit-background-size:cover!important;
+    	   -webkit-background-position:center center!important;
+    	    -webkit-background-attachment:scroll!important;
+        }
+        .cat6{
+    	 background-image: url('/images/cat1-mob-v2.jpg')!important;
+    	 background-repeat: no-repeat!important;
+    	 background-attachment: scroll!important;
+    	 background-size:cover!important;
+    	 background-position:center center!important;
+    	 -webkit-background-image: url('/images/cat1-mob-v2.jpg')!important;
+    	  -webkit-background-size:cover!important;
+    	   -webkit-background-position:center center!important;
+    	    -webkit-background-attachment:scroll!important;
+        }
+        .cat7{
+            background-image: url('/images/cat2-mob-v2.jpg')!important;
+    	  -webkit-background-image: url('/images/cat2-mob-v2.jpg')!important;
+    	 background-repeat: no-repeat!important;
+    	 background-attachment: scroll!important;
+    	 background-size:cover!important;
+    	 background-position:center center!important;
+    	 -webkit-background-size:cover!important;
+    	   -webkit-background-position:center center!important;
+    	    -webkit-background-attachment:scroll!important;
+        }
+        .cat8{
+        background-image: url('/images/cat3-mob-v2.jpg')!important;
+    	  -webkit-background-image: url('/images/cat3-mob-v2.jpg')!important;
+    	 background-repeat: no-repeat!important;
+    	 background-attachment: scroll!important;
+    	 background-size:cover!important;
+    	 background-position:center center!important;
+    	 -webkit-background-size:cover!important;
+    	   -webkit-background-position:center center!important;
+    	    -webkit-background-attachment:scroll!important;
+        }
+    }
+
+	.ftrlogo {
+		margin-bottom: 25px;
+		margin-right: 20%;
+		margin-left: 20%;
+		margin-top: 20px;
+	}
+	.ftrlinks{
+		padding-top:20px;
+	}
+	.footerlogosec{
+		text-align:center;
+		border-bottom:2px #ededed solid;
+	}
+	.home-management-team{
+		margin-bottom:34px;
+	}
+	.cat1{
+	 background-image: url('/images/cat1-mob-v2.jpg');
+	}
+	.catk1 {
+    background-image: url('/images/catk1mob.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+    background-position: center !important; 
+}
+	
+	
+	.cat2{
+	 background-image: url('/images/cat2-mob-v2.jpg');
+	}
+	.catk2 {
+    background-image: url('/images/catk2mob.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+    background-position: center !important; 
+}
+	.cat3{
+	 background-image: url('/images/cat3-mob-v2.jpg');
+	}
+	.catk3 {
+    background-image: url('/images/catk3mob.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+    background-position: center !important; 
+}
+	.cat4{
+	 background-image: url('/images/cat4-mob-v2.jpg');
+	}
+	.cat5{
+	 background-image: url('/images/cat5-mob-v2.jpg');
+	}
+	.catk5 {
+    background-image: url('/images/catk5mob.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+    background-position: center !important; 
+}
+    cat6{
+	 background-image: url('/images/cat1-mob-v2.jpg');
+	}
+	.catk6 {
+    background-image: url('/images/catk1mob.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+    background-position: center !important; 
+}
+	
+	
+	.cat7{
+	 background-image: url('/images/cat2-mob-v2.jpg');
+	}
+	.catk7 {
+    background-image: url('/images/catk2mob.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+    background-position: center !important; 
+}
+	.cat8{
+	 background-image: url('/images/cat3-mob-v2.jpg');
+	}
+	.catk8 {
+    background-image: url('/images/catk3mob.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+    background-position: center !important; 
+}
+	.cateBox {
+		background-size: cover;
+		background-position: center;
+	}
+	.cateBox.rev{
+		background-size: cover;
+		background-position: center;
+	}
+	.catImgBox {
+		min-height: 403px;
+	}
+	.btn-exlpnw.drk {
+		margin-bottom: 40px;
+	}
+	
+	.eachCatInfo {
+		background: rgba(0,0,0,0.4);
+		padding: 10px;
+		justify-content: center;
+	}
+	.eachCatInfo p{
+		text-align:center;
+	}
+	.home-management-team::after {
+		top:22px;
+		min-height:100%;
+		margin-bottom: 34px;
+	}
+	.managementeaminfo{
+		justify-content: center;
+		padding-top:20px;
+	}
+	.managementeaminfo p {
+		text-align: center;
+	}
+	.flex-column-reverse {
+
+		-ms-flex-direction: column-reverse !important;
+		flex-direction: column-reverse !important;
+	}
+}
+@media (max-width: 480px) {
+    @supports (-webkit-touch-callout: none) {
+        .cat1{
+    	 background-image: url('/images/cat1-mob-v2.jpg')!important;
+    	 background-repeat: no-repeat!important;
+    	 background-attachment: scroll!important;
+    	 background-size:cover!important;
+    	 background-position:center center!important;
+    	 -webkit-background-image: url('/images/cat1-mob-v2.jpg')!important;
+    	  -webkit-background-size:cover!important;
+    	   -webkit-background-position:center center!important;
+    	    -webkit-background-attachment:scroll!important;
+        }
+        .cat2{
+             background-image: url('/images/cat2-mob-v2.jpg')!important;
+    	  -webkit-background-image: url('/images/cat2-mob-v2.jpg')!important;
+    	 background-repeat: no-repeat!important;
+    	 background-attachment: scroll!important;
+    	 background-size:cover!important;
+    	 background-position:center center!important;
+    	 -webkit-background-size:cover!important;
+    	   -webkit-background-position:center center!important;
+    	    -webkit-background-attachment:scroll!important;
+        }
+        .cat3{
+            
+    	background-image: url('/images/cat3-mob-v2.jpg')!important;
+    	  -webkit-background-image: url('/images/cat3-mob-v2.jpg')!important;
+    	 background-repeat: no-repeat!important;
+    	 background-attachment: scroll!important;
+    	 background-size:cover!important;
+    	 background-position:center center!important;
+    	 -webkit-background-size:cover!important;
+    	   -webkit-background-position:center center!important;
+    	    -webkit-background-attachment:scroll!important;
+        }
+        .cat4{
+    	 background-image: url('/images/cat4-mob-v2.jpg')!important;
+    	  -webkit-background-image: url('/images/cat4-mob-v2.jpg')!important;
+    	 background-repeat: no-repeat!important;
+    	 background-attachment: scroll!important;
+    	 background-size:cover!important;
+    	 background-position:center center!important;
+    	 -webkit-background-size:cover!important;
+    	   -webkit-background-position:center center!important;
+    	    -webkit-background-attachment:scroll!important;
+        }
+        .cat5{
+    	 background-image: url('/images/cat5-mob-v2.jpg')!important;
+    	  -webkit-background-image: url('/images/cat5-mob-v2.jpg')!important;
+    	 background-repeat: no-repeat!important;
+    	 background-attachment: scroll!important;
+    	 background-size:cover!important;
+    	 background-position:center center!important;
+    	 -webkit-background-size:cover!important;
+    	   -webkit-background-position:center center!important;
+    	    -webkit-background-attachment:scroll!important;
+        }
+        .cat6{
+    	 background-image: url('/images/cat1-mob-v2.jpg')!important;
+    	 background-repeat: no-repeat!important;
+    	 background-attachment: scroll!important;
+    	 background-size:cover!important;
+    	 background-position:center center!important;
+    	 -webkit-background-image: url('/images/cat1-mob-v2.jpg')!important;
+    	  -webkit-background-size:cover!important;
+    	   -webkit-background-position:center center!important;
+    	    -webkit-background-attachment:scroll!important;
+        }
+        .cat7{
+             background-image: url('/images/cat2-mob-v2.jpg')!important;
+    	  -webkit-background-image: url('/images/cat2-mob-v2.jpg')!important;
+    	 background-repeat: no-repeat!important;
+    	 background-attachment: scroll!important;
+    	 background-size:cover!important;
+    	 background-position:center center!important;
+    	 -webkit-background-size:cover!important;
+    	   -webkit-background-position:center center!important;
+    	    -webkit-background-attachment:scroll!important;
+        }
+        .cat8{
+            
+    	background-image: url('/images/cat3-mob-v2.jpg')!important;
+    	  -webkit-background-image: url('/images/cat3-mob-v2.jpg')!important;
+    	 background-repeat: no-repeat!important;
+    	 background-attachment: scroll!important;
+    	 background-size:cover!important;
+    	 background-position:center center!important;
+    	 -webkit-background-size:cover!important;
+    	   -webkit-background-position:center center!important;
+    	    -webkit-background-attachment:scroll!important;
+        }
+    }
+	footer ul {
+        margin-right: 70px;
+    }
+	.ftrlogo {
+		margin-bottom: 25px;
+		margin-right: 15%;
+		margin-left: 15%;
+		margin-top: 20px;
+	}
+	.ftrlinks{
+		padding-top:20px;
+	}
+	.footerlogosec{
+		text-align:center;
+		border-bottom:2px #ededed solid;
+	}
+	
+	.cat1{
+	 background-image: url('/images/cat1-mob-v2.jpg');
+	}
+	.catk1 {
+    background-image: url('/images/catk1mob.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+    background-position: center !important; 
+}
+	
+	
+	.cat2{
+	 background-image: url('/images/cat2-mob-v2.jpg');
+	}
+	.catk2 {
+    background-image: url('/images/catk2mob.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+    background-position: center !important; 
+}
+	
+	
+	
+	.cat3{
+	 background-image: url('/images/cat3-mob-v2.jpg');
+	}
+	.catk3 {
+    background-image: url('/images/catk3mob.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+    background-position: center !important; 
+}
+    
+	
+	.cat4{
+	 background-image: url('/images/cat4-mob-v2.jpg');
+	}
+	.cat5{
+	 background-image: url('/images/cat5-mob-v2.jpg');
+	}
+	.catk5 {
+    background-image: url('/images/catk5mob.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+    background-position: center !important; 
+}
+    .cat6{
+	 background-image: url('/images/cat1-mob-v2.jpg');
+	}
+	.catk6 {
+    background-image: url('/images/catk1mob.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+    background-position: center !important; 
+}
+	
+	
+	.cat7{
+	 background-image: url('/images/cat2-mob-v2.jpg');
+	}
+	.catk7 {
+    background-image: url('/images/catk2mob.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+    background-position: center !important; 
+}
+	
+	
+	
+	.cat8{
+	 background-image: url('/images/cat3-mob-v2.jpg');
+	}
+	.catk8 {
+    background-image: url('/images/catk3mob.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+    background-position: center !important; 
+}
+	.cateBox {
+		background-size: contain;
+		background-position: bottom;
+	}
+	.cateBox.rev{
+		background-size: contain;
+		background-position: bottom right;
+	}
+	.catImgBox {
+		min-height: 403px;
+	}
+	.btn-exlpnw.drk {
+		margin-bottom: 40px;
+	}
+	.eachCatInfo {
+		background: rgba(0,0,0,0.4);*/
+		padding: 10px;
+		justify-content: center;
+	}
+	.eachCatInfo p{
+		text-align:center;
+	}
+	.home-management-team{
+		margin-bottom:34px;
+	}
+	.home-management-team::after {
+		top:22px;
+		min-height:100%;
+	}
+	.managementeaminfo{
+		justify-content: center;
+		padding-top:20px;
+	}
+	.managementeaminfo p {
+		text-align: center;
+	}
+	.flex-column-reverse {
+
+    -ms-flex-direction: column-reverse !important;
+    flex-direction: column-reverse !important;
+
+}
+}
+@media (max-width: 420px) {
+    footer ul {
+        margin-right: 50px;
+    }
+}
+@media (max-width: 379px) {
+	footer ul {
+		margin-right: 33px;
+	}
+}
+@media (max-width: 330px) {
+	footer ul {
+		margin-right: 24px;
+	}
+}
